@@ -76,7 +76,7 @@ const useStyles = makeStyles((theme) => ({
                         <div class="form-group col-lg-6 col-lg-offset-3 input-group">
                         <p></p>
                         </div>
-                        <Button color="primary" variant="contained" type="submit">Log in</Button>
+                        <Button sx={{ mb:2 }} color="primary" variant="outlined" type="submit">Log in</Button>
                     </div>
                 </form>
             </div>

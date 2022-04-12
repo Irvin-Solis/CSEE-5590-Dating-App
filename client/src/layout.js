@@ -71,7 +71,7 @@ export default function Layout(props) {
                 <AppBar position="static" color="secondary">
                     <Toolbar>
                     <Typography href="/" variant="h6" className={classes.title} onClick={()=>{redirect('/')}}>
-                        UMKC Community <SchoolIcon />
+                        Community <SchoolIcon />
                     </Typography>
 
                     <Button sx={{ my: 1, color: 'white', display: 'block' }} onClick={ ()=>{redirect('/discussion')}}>
