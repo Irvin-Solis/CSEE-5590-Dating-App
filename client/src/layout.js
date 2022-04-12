@@ -77,6 +77,9 @@ export default function Layout(props) {
                     <Button sx={{ my: 1, color: 'white', display: 'block' }} onClick={ ()=>{redirect('/discussion')}}>
                         Discussions
                     </Button>
+                    <Button sx={{ my: 1, color: 'white', display: 'block' }} onClick={ ()=>{redirect('/signin')}}>
+                        Sign in
+                    </Button>
                     
                     {darkState ? <Brightness7Icon onClick={handleThemeChange} /> : <Brightness4Icon onClick={handleThemeChange} />}
                     </Toolbar>
