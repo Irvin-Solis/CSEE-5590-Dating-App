@@ -1,4 +1,4 @@
-# CSEE-5590-Dating-App
+# CSEE-5590-umkc-app
 
 ## Running app
 

@@ -1,0 +1,20 @@
+{
+  "name": "umkc-app",
+  "version": "1.0.0",
+  "description": "- open Terminal in folder directory\r - run `npm install` to install dependecies\r - run `npm start` to start up application\r - go to http://localhost:3000 to see site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irvin-Solis/CSEE-5590-Dating-App.git"
+  },
+  "author": "Irvin Jimenez-Solis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irvin-Solis/CSEE-5590-Dating-App/issues"
+  },
+  "homepage": "https://github.com/Irvin-Solis/CSEE-5590-Dating-App#readme"
+}
